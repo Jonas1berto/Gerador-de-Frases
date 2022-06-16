@@ -1,0 +1,1 @@
+# Gerador de Frases aleatória

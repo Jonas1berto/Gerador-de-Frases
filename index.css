@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url("https://www.fatosdesconhecidos.com.br/wp-content/uploads/2016/08/004-5-1920x1080.jpg");
+  
+}
+
+#container {
+  margin-top: 240px;
+  width: 100%;
+  max-width: 650px;
+  margin-inline: auto;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+p {
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: rgb(250, 248, 248);
+  transition: filter .5s;
+}
+
+button:hover {
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+#frase {
+  margin-top: 30px;
+
+  transition: opacity 2s;
+}
+
+#frase div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
